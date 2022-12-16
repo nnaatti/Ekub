@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>እቁብ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+  </head>
+  <body>
+
+
+    <header>
+        <div class="container mt-3">
+            <div class="row">
+                
+            </div>
+            <div class="row mt-5">
+                <div class="col d-flex justify-content-center">
+                    <a> <h1> እቁብ </h1> </a>
+                </div>
+            </div>
+           
+            <div class="row">
+
+        </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="container  ">
+            <div class="row mx-5">
+                <div class="col">
+                    <input id="name" type="text" placeholder="ሙሉ ስም">
+                </div>
+            </div>
+            <div class="row mx-5 mt-2">
+                <div class="col">
+                    <input id="amount" type="number" placeholder="የብር መጠን">
+                </div>
+            </div>
+            <div class="row mx-5 mt-3">
+                <div class="col">
+                    <button class="btn btn-secondary"  style="background-color: #740505;" id="acc">አስገባ</button>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col">
+                    <div class="container mt-3">
+                        <table class="table table-bordered  " id="display">
+                            <thead>
+                                <tr class="table  ">
+                                    <th scope="col">ሙሉ ስም</th>
+                                    <th scope="col">የብር መጠን</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mx-5 mt-2">
+                <div class="col d-flex justify-content-end">
+                    <button class="btn btn-secondary"  style="background-color: #740505;" id="shuffle">አውጣ</button>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="row"> 
+                    <div class="col lg-6 d-flex justify-content-center">
+                        <h1>የዛሬው እድለኛ</h1>
+                          
+                    </div>
+                    <div class="row">
+                      <div class="col lg-6 d-flex justify-content-center">
+                        <h2 id="start"></h2>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+            </div>
+           
+        </div>
+    </main>
+
+
+    
+
+  </body>
+    
+   
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+
+
+    
+    
+</html>
